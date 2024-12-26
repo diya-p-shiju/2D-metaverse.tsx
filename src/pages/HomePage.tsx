@@ -1,11 +1,12 @@
-import { Button } from "@/components/ui/button";
+import Header from "@/components/molecules/Header"
 
 const HomePage = () => {
   return (
-    <>
-      <div>hey</div>
-    </>
-  );
-};
+    <div className="bg-foreground w-screen h-screen m-0">
 
-export default HomePage;
+    <Header />
+    </div>
+  )
+}
+
+export default HomePage
