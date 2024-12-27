@@ -1,8 +1,12 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+   <section className="flex justify-between text-mono text-sm mx-5">
+    <Link to="/action" className="text-secondary">@Diya</Link>
+    <Link to="/action" className="text-secondary">FOLLOW US ON OUR SOCIALS</Link>
+    <Link to="/action" className="text-secondary">MIT LICENCE</Link>
+   </section>
   )
 }
 

@@ -1,25 +1,25 @@
 import Footer from "@/components/molecules/Footer";
-import NavBar from "@/components/molecules/NavBar";
 import Header from "@/components/molecules/Header";
+import SideBar from "@/components/molecules/SideBar";
 
 const Layout = ({ children }) => {
   return (
-    <div className="h-screen grid grid-cols-[auto_1fr] grid-rows-[auto_1fr_auto] bg-black ">
+    <div className="h-screen w-screen grid grid-cols-[auto_1fr] grid-rows-[auto_1fr_auto] bg-black ">
       {/* Header */}
-      <div className="col-span-2 bg-red-500">
+      <div className="col-span-2">
         <Header />
       </div>
 
       {/* Sidebar (NavBar) */}
-      <div className="row-span-2 bg-blue-500">
-        <NavBar />
+      <div className="row-span-2 ">
+        <SideBar />
       </div>
 
       {/* Main Content */}
       <div className="bg-white">{children}</div>
 
       {/* Footer */}
-      <div className="col-span-2 bg-green-500">
+      <div className="col-span-2 ">
         <Footer />
       </div>
     </div>
