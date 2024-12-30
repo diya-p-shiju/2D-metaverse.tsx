@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
       </div>
 
       {/* Main Content */}
-      <div className="bg-white">{children}</div>
+      <div >{children}</div>
 
       {/* Footer */}
       <div className="col-span-2 ">

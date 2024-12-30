@@ -1,8 +1,17 @@
-import CardWorkspaces from "@/atoms/CardWorkspaces";
+import CardWorkspaces from "@/components/atoms/CardWorkspaces";
+import { Button } from "@/components/ui/button";
+
 
 const UserHomePage = () => {
   return (
-    <section className="container">
+    <section className="container m-10 gap-5 h-auto w-full flex flex-wrap">
+      <CardWorkspaces />
+      <CardWorkspaces />
+      <CardWorkspaces />
+      <CardWorkspaces />
+      <CardWorkspaces />
+      <CardWorkspaces />
+      <CardWorkspaces />
       <CardWorkspaces />
     </section>
   );
